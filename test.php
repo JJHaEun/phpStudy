@@ -15,7 +15,22 @@ define("FAVORITE_DOLL", "gelatoni");
 
 echo '<br> 상수 FAVORITE_DOLL은' . FAVORITE_DOLL;
 define("FAVORITE_DOLL", "gablielle");
-echo '<br> 상수 FAVORITE_DOLL은' . FAVORITE_DOLL;
+echo '<br> 상수 FAVORITE_DOLL은' . FAVORITE_DOLL . "<br><br>";
+
+// 더하기
 $sum = 5 + 5;
-echo $sum
+echo "{$sum}<br>";
+
+// 연산
+echo 5 * 5 + 3 - 1;
+
+
+// 나머지
+$rest = 5 % 3;
+echo "<br>" . $rest . "<br>";
+
+
+// 나누기
+$division = 8 / 3;
+echo $division;
 ?>
