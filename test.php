@@ -32,5 +32,38 @@ echo "<br>" . $rest . "<br>";
 
 // 나누기
 $division = 8 / 3;
-echo $division;
+echo $division . "<br>";
+
+
+// 대입연산자
+// += 변수의 값에서 다른 값을 더해 대입
+$num = 10;
+$num += 34; // $num = 10 + 34
+
+echo $num . "<br>";
+
+// -= 변수 값에서 다른 값을 뺀 값을 대입
+$minusadd = 50;
+$minusadd -= $num; // $minusadd = 50 - 44
+echo $minusadd . "<br><br>";
+//*= 변수 값에서 다른 값을 곱해 대입
+$num = 34;
+$num *= 5;
+echo $num . "<br>";
+//    /=변수 값에서 다른 값을 나눌때
+$num = 33;
+$num /= 3;
+echo $num . "<br>";
+
+//%= 변수 값에서 다른 값 나누고 나온 나머지 값을 대입
+$divide = 18;
+$divide %= 2;
+
+echo $divide . "<br>";
+// .= 변수 값(문자열)에서 다른 문자열을 붙일때 사용.
+$addString = "서울\n"; // \n은 띄어쓰기
+$addString .= "특별시";
+
+echo $addString;
+
 ?>
