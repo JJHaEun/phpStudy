@@ -97,4 +97,21 @@ $num = range(1, 10,);
 for ($i = 0; $i < count($num); $i++) {
     echo "<br> $num[$i]";
 }
+
+// 타입은?  gettype()
+echo "<br>데이터 타입" . gettype($num);
+
+$booleanType = true;
+echo "<br><br> boolean타입: " . gettype($booleanType);
+
+
+// 데이터형 변환
+$str = (string)"123,dock, chick, orion";
+$str = (int)$str;
+
+echo "<br><br><br>" . $str . "<br><br>";
+
+
+$double = 83.64;
+echo $double = (int)$double;
 ?>
